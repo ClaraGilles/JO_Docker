@@ -1,0 +1,85 @@
+[2025-05-05T10:18:11.786+0000] {processor.py:186} INFO - Started process (PID=2571) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:18:11.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:18:11.789+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:18:11.797+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:18:11.878+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.878+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:ingest_resultats_csv
+[2025-05-05T10:18:11.886+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.886+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:ingest_resultats_csv
+[2025-05-05T10:18:11.892+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.891+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:ingest_resultats_csv
+[2025-05-05T10:18:11.898+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.898+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:ingest_resultats_csv
+[2025-05-05T10:18:11.903+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.903+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:ingest_resultats_csv
+[2025-05-05T10:18:11.908+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.908+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:ingest_resultats_csv
+[2025-05-05T10:18:11.912+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.912+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:ingest_resultats_csv
+[2025-05-05T10:18:11.913+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:18:11.922+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.922+0000] {dag.py:3262} INFO - Creating ORM DAG for ingest_resultats_csv
+[2025-05-05T10:18:11.923+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:11.923+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:18:11.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.157 seconds
+[2025-05-05T10:18:42.880+0000] {processor.py:186} INFO - Started process (PID=2635) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:18:42.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:18:42.887+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:42.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:18:42.894+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:18:42.911+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:42.911+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:18:42.925+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:42.924+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:18:42.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.066 seconds
+[2025-05-05T10:18:50.163+0000] {processor.py:186} INFO - Started process (PID=2640) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:18:50.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:18:50.166+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:50.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:18:50.173+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:18:50.269+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:50.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:18:50.280+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:18:50.280+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:18:50.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.141 seconds
+[2025-05-05T10:19:20.675+0000] {processor.py:186} INFO - Started process (PID=2704) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:19:20.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:19:20.682+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:19:20.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:19:20.689+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:19:20.707+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:19:20.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:19:20.721+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:19:20.721+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:19:20.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.070 seconds
+[2025-05-05T10:19:50.957+0000] {processor.py:186} INFO - Started process (PID=2768) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:19:50.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:19:50.960+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:19:50.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:19:50.966+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:19:50.984+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:19:50.984+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:19:50.996+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:19:50.996+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:19:51.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.061 seconds
+[2025-05-05T10:20:21.072+0000] {processor.py:186} INFO - Started process (PID=2832) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:20:21.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:20:21.080+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:20:21.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:20:21.087+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:20:21.106+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:20:21.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:20:21.119+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:20:21.119+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:20:21.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.071 seconds
+[2025-05-05T10:20:51.779+0000] {processor.py:186} INFO - Started process (PID=2902) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:20:51.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:20:51.787+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:20:51.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:20:51.793+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:20:51.809+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:20:51.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:20:51.821+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:20:51.821+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:20:51.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.061 seconds
+[2025-05-05T10:22:17.695+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:22:17.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:22:17.699+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:22:17.699+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:22:17.719+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:22:17.760+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:22:17.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:22:17.775+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:22:17.774+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:22:17.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.103 seconds
+[2025-05-05T10:22:48.367+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:22:48.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:22:48.375+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:22:48.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:22:48.384+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:22:48.406+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:22:48.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:22:48.423+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:22:48.422+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:22:48.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.080 seconds
+[2025-05-05T10:23:19.268+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:23:19.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:23:19.271+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:23:19.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:23:19.278+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:23:19.299+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:23:19.299+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:23:19.311+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:23:19.311+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:23:19.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.065 seconds
+[2025-05-05T10:23:49.459+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:23:49.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingest_data.py for tasks to queue
+[2025-05-05T10:23:49.467+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:23:49.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:23:49.475+0000] {processor.py:925} INFO - DAG(s) 'ingest_resultats_csv' retrieved from /opt/airflow/dags/ingest_data.py
+[2025-05-05T10:23:49.493+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:23:49.493+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T10:23:49.506+0000] {logging_mixin.py:190} INFO - [2025-05-05T10:23:49.506+0000] {dag.py:4180} INFO - Setting next_dagrun for ingest_resultats_csv to None, run_after=None
+[2025-05-05T10:23:49.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingest_data.py took 0.072 seconds

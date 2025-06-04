@@ -1,0 +1,22 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Dépendances système pour pandas, psycopg2, numpy, etc.
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libpq-dev \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copier le code dans le conteneur
+COPY app /app
+
+# Installer les dépendances Python
+RUN pip install --no-cache-dir streamlit pandas psycopg2
+
+# Exposer le port utilisé par Streamlit
+EXPOSE 8501
+
+# Commande de démarrage de Streamlit
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]

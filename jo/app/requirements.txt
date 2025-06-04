@@ -1,0 +1,4 @@
+psycopg2-binary==2.9.10
+streamlit==1.40.1
+pandas==2.0.3
+SQLAlchemy==2.0.36

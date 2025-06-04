@@ -1,0 +1,40 @@
+[2025-05-06T09:32:02.679+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-06T09:32:02.693+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingest_resultats_csv.load_csv_with_sqlalchemy scheduled__2025-05-06T09:30:00+00:00 [queued]>
+[2025-05-06T09:32:02.703+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingest_resultats_csv.load_csv_with_sqlalchemy scheduled__2025-05-06T09:30:00+00:00 [queued]>
+[2025-05-06T09:32:02.703+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-05-06T09:32:02.717+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_csv_with_sqlalchemy> on 2025-05-06 09:30:00+00:00
+[2025-05-06T09:32:02.726+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=258) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-06T09:32:02.728+0000] {standard_task_runner.py:72} INFO - Started process 260 to run task
+[2025-05-06T09:32:02.729+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ingest_resultats_csv', 'load_csv_with_sqlalchemy', 'scheduled__2025-05-06T09:30:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/ingest_resultats_csv.py', '--cfg-path', '/tmp/tmp6yp67zq_']
+[2025-05-06T09:32:02.730+0000] {standard_task_runner.py:105} INFO - Job 28: Subtask load_csv_with_sqlalchemy
+[2025-05-06T09:32:02.780+0000] {task_command.py:467} INFO - Running <TaskInstance: ingest_resultats_csv.load_csv_with_sqlalchemy scheduled__2025-05-06T09:30:00+00:00 [running]> on host db6fb741a143
+[2025-05-06T09:32:03.145+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ingest_resultats_csv' AIRFLOW_CTX_TASK_ID='load_csv_with_sqlalchemy' AIRFLOW_CTX_EXECUTION_DATE='2025-05-06T09:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-06T09:30:00+00:00'
+[2025-05-06T09:32:03.146+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-06T09:32:03.147+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-06T09:32:03.147+0000] {logging_mixin.py:190} INFO - Current task name:load_csv_with_sqlalchemy state:running start_date:2025-05-06 09:32:02.693897+00:00
+[2025-05-06T09:32:03.147+0000] {logging_mixin.py:190} INFO - Dag name:ingest_resultats_csv and current dag run status:running
+[2025-05-06T09:32:03.147+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-06T09:32:03.502+0000] {warnings.py:112} WARNING - /opt/***/dags/ingest_resultats_csv.py:29: UserWarning: Parsing dates in %d/%m/%Y format when dayfirst=False (the default) was specified. Pass `dayfirst=True` or specify a format to silence this warning.
+  df[col] = pd.to_datetime(df[col], errors='coerce')
+
+[2025-05-06T09:32:03.515+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2025-05-06T09:32:12.269+0000] {logging_mixin.py:190} INFO -    id_resultat  ...         dt_modification
+0      6045706  ... 2024-12-22 02:01:02.817
+1      6045707  ... 2024-12-22 02:01:02.817
+2      6045708  ... 2024-12-22 02:01:02.817
+3      6045709  ... 2024-12-22 02:01:02.817
+4      6045710  ... 2024-12-22 02:01:02.817
+
+[5 rows x 51 columns]
+[2025-05-06T09:32:12.274+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-06T09:32:12.290+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-06T09:32:12.291+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ingest_resultats_csv, task_id=load_csv_with_sqlalchemy, run_id=scheduled__2025-05-06T09:30:00+00:00, execution_date=20250506T093000, start_date=20250506T093202, end_date=20250506T093212
+[2025-05-06T09:32:12.308+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-06T09:32:12.308+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-06T09:32:12.308+0000] {logging_mixin.py:190} INFO - Dag name:ingest_resultats_csv queued_at:2025-05-06 09:32:01.035051+00:00
+[2025-05-06T09:32:12.308+0000] {logging_mixin.py:190} INFO - Task hostname:db6fb741a143 operator:PythonOperator
+[2025-05-06T09:32:12.371+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-06T09:32:12.388+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-06T09:32:12.390+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
