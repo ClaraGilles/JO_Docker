@@ -1,0 +1,3 @@
+soda-core==3.3.0
+soda-core-postgres==3.3.0
+psycopg2-binary

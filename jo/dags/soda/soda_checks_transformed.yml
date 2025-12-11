@@ -1,0 +1,19 @@
+# soda_checks_transformed.yml
+checks for jo:
+  # La table transformée doit avoir des lignes
+  - row_count > 0
+
+  # Vérification des colonnes transformées
+  - missing_count(athlete_nom) = 0
+  - missing_count(athlete_prenom) = 0
+  - missing_count(performance_finale) = 0
+
+  # Règles métier : performance > 0 si existante
+  - invalid_count(performance_finale) < 0
+
+  # Vérifie que les doublons ont été éliminés
+  - duplicate_count(id_resultat) = 0
+
+  # Vérification sur des catégories attendues
+  - invalid_count(categorie_age not in ('Senior', 'Junior', 'Youth', 'U23')) = 0
+  - invalid_count(epreuve_genre not in ('Femmes', 'Hommes', 'Mixte')) = 0

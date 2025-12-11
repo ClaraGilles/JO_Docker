@@ -1,0 +1,19 @@
+# soda_checks_raw.yml
+checks for jo:
+  # Vérification basique de présence de lignes
+  - row_count > 0
+
+  # Pas de valeurs manquantes dans les colonnes clés
+  - missing_count(id_resultat) = 0
+  - missing_count(id_evenement) = 0
+  - missing_count(id_athlete_base_resultats) = 0
+
+  # Vérification de doublons
+  - duplicate_count(id_resultat) = 0
+
+  # Vérification sur les types simples
+  - invalid_count(classement_epreuve) < 0
+  - invalid_count(est_epreuve_individuelle) = 0:
+      valid values: [0, 1]
+  - invalid_count(est_epreuve_olympique) = 0:
+      valid values: [0, 1]

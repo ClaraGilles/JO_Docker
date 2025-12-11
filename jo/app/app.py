@@ -4,7 +4,7 @@ import psycopg2
 
 # Connexion à PostgreSQL
 conn = psycopg2.connect(
-    host="postgres",       # ou "localhost" selon ta config
+    host="postgres_container",       # ou "localhost" selon ta config
     database="airflow",
     user="airflow",
     password="airflow",
